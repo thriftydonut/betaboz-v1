@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:keyboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1912,13 +1913,7 @@ F 3 "" H 13010 8510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13210 8635 13110 8635
-Wire Wire Line
 	13010 8635 13010 8510
-Connection ~ 13010 8635
-Connection ~ 13110 8635
-Wire Wire Line
-	13110 8635 13010 8635
 $Comp
 L power:GND #PWR0102
 U 1 1 61108E51
@@ -1934,7 +1929,6 @@ Wire Wire Line
 	13110 12235 13010 12235
 Wire Wire Line
 	13010 12235 13010 12370
-Connection ~ 13010 12235
 $Comp
 L Device:R_Small R4
 U 1 1 6111A522
@@ -1958,9 +1952,9 @@ F 3 "" H 14405 11035 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13710 11035 13955 11035
+	13710 11035 13910 11035
 Wire Wire Line
-	14155 11035 14405 11035
+	14155 11035 14210 11035
 $Comp
 L Device:R_Small R2
 U 1 1 6114B2FB
@@ -2324,4 +2318,50 @@ Text GLabel 18120 6460 2    50   Input ~ 0
 D-
 Text GLabel 18120 6560 2    50   Input ~ 0
 D+
+Text GLabel 13710 11335 2    50   Input ~ 0
+row4
+Text GLabel 13710 11435 2    50   Input ~ 0
+row3
+Text GLabel 13710 11535 2    50   Input ~ 0
+row2
+Text GLabel 13710 11635 2    50   Input ~ 0
+row1
+Text GLabel 13710 11735 2    50   Input ~ 0
+row0
+Text GLabel 13710 9935 2    50   Input ~ 0
+col1
+Text GLabel 13710 9835 2    50   Input ~ 0
+col2
+Text GLabel 13710 9535 2    50   Input ~ 0
+col3
+Text GLabel 13710 9435 2    50   Input ~ 0
+col4
+Text GLabel 13710 9335 2    50   Input ~ 0
+col5
+Wire Wire Line
+	14310 11035 14405 11035
+Wire Wire Line
+	13010 8635 13110 8635
+Connection ~ 13010 8635
+Connection ~ 13010 12235
+Text GLabel 13710 10835 2    50   Input ~ 0
+col6
+Text GLabel 13710 10735 2    50   Input ~ 0
+col7
+Text GLabel 13710 10535 2    50   Input ~ 0
+col8
+Text GLabel 13710 11835 2    50   Input ~ 0
+col0
+Text GLabel 13710 10635 2    50   Input ~ 0
+col9
+Text GLabel 13710 10435 2    50   Input ~ 0
+col10
+Text GLabel 13710 10335 2    50   Input ~ 0
+col11
+Text GLabel 13710 10235 2    50   Input ~ 0
+col12
+Text GLabel 13710 10135 2    50   Input ~ 0
+col14
+Text GLabel 13710 9235 2    50   Input ~ 0
+col13
 $EndSCHEMATC
